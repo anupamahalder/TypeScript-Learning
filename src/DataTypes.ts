@@ -17,8 +17,19 @@ let corse: string = "TypeScript";
 let is_Published: boolean = true;
 let level;
 
-// The any type
+// --------------The any type-------------
 // As a best practice we should avoid using any type in TS.
 function render(document: any) {
   console.log(document);
 }
+
+
+// -----------------Arrays--------------------
+// we want to make an array of number datatype
+let numbers: number[] = [1, 2, 3];
+// let arr = []; // The type of array will be any and we should avoid this in TS
+// declare an empty array of number datatype
+let arr: number[] = [];
+// now we can access all the methods of the number which we don't get in JS
+arr.forEach(n => n.toFixed())
+
