@@ -35,6 +35,7 @@ arr.forEach(n => n.toFixed())
 
 // ---------------Tuples--------------------
 // tuple is a fixed length of array where each element has a particular type we often use with pair of values
+// tuples are useful when we have only two values
 // 1, 'Anupama'
 // here first element will be number and second element will be string
 let user: [number, string] = [1, "Anupama"];
