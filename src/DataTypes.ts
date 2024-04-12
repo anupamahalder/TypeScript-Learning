@@ -16,3 +16,9 @@ let sales: number = 123_456_789;
 let corse: string = "TypeScript";
 let is_Published: boolean = true;
 let level;
+
+// The any type
+// As a best practice we should avoid using any type in TS.
+function render(document: any) {
+  console.log(document);
+}
