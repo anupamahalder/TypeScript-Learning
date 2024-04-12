@@ -2,11 +2,11 @@
 
 
 ### NOTE:
-1. All files will be inside dist folder
+1. All files will be inside dist folder as .js and inside src folder there will be .ts 
 2. Creating a configuration file for the typescript compiler (on terminal): tsc -- init
 3. By default TypeScript uses older version of Javascript ES5
 4. To run the all typescript file we will write on terminal: tsc
-
+5. To run a particular file on Terminal: node dist/DataTypes.js
 
 ## Datatype in TypeScript:
   Data types that introduces in TypeScript:
