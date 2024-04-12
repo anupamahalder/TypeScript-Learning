@@ -42,3 +42,20 @@ let user: [number, string] = [1, "Anupama"];
 // we can access first element with index and can use methods
 console.log(user[1].toUpperCase());
 
+// -----------------Enums----------------
+// Enum represents the list of related constant
+const small = 1;
+const medium = 2;
+const large = 3;
+// PascalCase
+// if we initialize the first varible then next will be automatically contain next values by the compiler
+enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+// access enum
+let mySize: Size = Size.Medium;
+console.log(mySize); // 2
+// if we declare our enum as constant then our compiler will generate more optimized code in javascript
+
