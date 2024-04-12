@@ -33,3 +33,11 @@ let arr: number[] = [];
 // now we can access all the methods of the number which we don't get in JS
 arr.forEach(n => n.toFixed())
 
+// ---------------Tuples--------------------
+// tuple is a fixed length of array where each element has a particular type we often use with pair of values
+// 1, 'Anupama'
+// here first element will be number and second element will be string
+let user: [number, string] = [1, "Anupama"];
+// we can access first element with index and can use methods
+console.log(user[1].toUpperCase());
+
