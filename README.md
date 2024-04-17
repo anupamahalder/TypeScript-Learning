@@ -1,5 +1,10 @@
 # TypeScript:
-
+## What TypeScript does?
+1. Static Checking
+2. Analyze the code as we type.
+   
+## What is TypeScript?
+1. It is a development tool. Your project still runs JS
 
 ### NOTE:
 1. All files will be inside dist folder as .js and inside src folder there will be .ts 
